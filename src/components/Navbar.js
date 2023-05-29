@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
         <div>
           <Link href="/">
-            <span className="text-white text-xl font-bold">Logo</span>
+            <span className="text-white text-xl font-bold">Transportinator</span>
           </Link>
         </div>
         <div className="hidden md:block">
