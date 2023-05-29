@@ -1,4 +1,3 @@
-// pages/api/register.js
 
 import bcrypt from "bcryptjs";
 // import connectDB from "../../utils/connectDB";

@@ -1,5 +1,3 @@
-// pages/api/reply-message.js
-
 import connectDB from "../../utils/mongodb";
 import Message from "../../models/Message";
 

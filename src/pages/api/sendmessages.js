@@ -1,6 +1,4 @@
-// pages/api/sendmessages.js
 
-// import connectDB from "../../utils/mongodb";
 import connectDB from "@/utils/mongodb";
 import Message from "../../models/Message";
 

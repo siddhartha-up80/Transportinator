@@ -1,7 +1,4 @@
-// pages/api/login.js
-
 import bcrypt from "bcryptjs";
-// import connectDB from "../../utils/connectDB";
 import connectDB from "@/utils/mongodb";
 import User from "../../models/User";
 import jwt from "jsonwebtoken";

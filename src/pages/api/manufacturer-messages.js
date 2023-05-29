@@ -8,9 +8,8 @@ export default async function handler(req, res) {
   if (req.method === "GET") {
     try {
       const { transporterId } = req.query;
-
       // Fetch messages for the specified transporter
-      const messages = await Message.find({ "transporter" : transporterId });
+      const messages = await Message.find({ transporter: transporterId });
 
       res.status(200).json({ messages });
     } catch (error) {
